@@ -1,4 +1,4 @@
-# Beauty_And_The_Beast_Analysis
+# Beauty and the beast analysis
 
 ### img right here
 ---
