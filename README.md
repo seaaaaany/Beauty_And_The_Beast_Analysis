@@ -9,6 +9,7 @@ How the New 'Beauty and the Beast' Compares to the Animated Classic
 
 <p align="center">
   <a href="#background">Background</a> •
+  <a href="#requirement">Requirement</a> •
   <a href="#movie">Movie</a> •
   <a href="#music">Music</a> •
   <a href="#analysis">Analysis</a> •
@@ -24,6 +25,16 @@ Once Walt Disney Pictures began adapting its animated classics for live-action, 
 
 ---
 
+## Requirement
+> You may need Plotly, BeautifulSoup installed.
+```bash
+# Plotly
+pip install plotly
+# BeautifulSoup
+pip install bs4
+```
+
+
 ## Movie
 
 
@@ -34,6 +45,20 @@ Once Walt Disney Pictures began adapting its animated classics for live-action, 
 ---
 
 ## Analysis
+The movie data for both movies are scrapped from [boxofficemojo](http://www.boxofficemojo.com/).
+The years we selected are from 1980 to 2018.
+
+```bash
+all_years = []
+for x in range(1980,2018):
+    all_years.append(box_office_mojo_compile(x))
+all_year = pd.concat(all_years)
+```
+
+>You can find all cleaned data at [here](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/tree/master/dataset).
+<br>
+</br>
+
 ![Total_Gross_vs_Opening](result_img/Total_Gross_vs_Opening.png)
 
 ---
