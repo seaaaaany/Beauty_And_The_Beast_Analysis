@@ -13,7 +13,7 @@ How the New 'Beauty and the Beast' Compares to the Animated Classic
   <a href="#movie">Movie</a> •
   <a href="#music">Music</a> •
   <a href="#analysis">Analysis</a> •
-  <a href="#technology-stack-used">Technology Stack Used</a> •
+  <a href="#technology-stack-used">Technology Stack Used</a>
 </p>
 
 ![2017](readme_images/beauty-beast.jpg)
