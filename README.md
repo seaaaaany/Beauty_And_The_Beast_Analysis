@@ -12,7 +12,8 @@ How the New 'Beauty and the Beast' Compares to the Animated Classic
   <a href="#requirement">Requirement</a> •
   <a href="#movie-data">Movie Data</a> •
   <a href="#analysis">Analysis</a> •
-  <a href="#technology-stack-used">Technology Stack Used</a>
+  <a href="#technology-stack-used">Technology Stack Used</a> •
+  <a href="#can-we-go-further">Can We Go Further</a>
 </p>
 
 ![2017](readme_images/beauty-beast.jpg)
@@ -91,6 +92,16 @@ What we could find is both movies were very hot at the first few weeks. 2017 vis
 + Plotly (Visualization)
 + BeautifulSoup (Web Scraping)
 + Seaborn/Matplotlib (Visualization)
+
+---
+
+## Can We Go Further
++ The dataset is very big with over ten categories. It might have huge potential behind the data.
++ Besides <Beauty and the Beast>, we can calculate the total amount of revenue for each studio yearly, decadely, even accumulated, to see the market share of each movie studio of US market.
++ The correlation between total gross and theaters open.
++ ......
+> You might see another repository about the deeply analysis shortly.
+
 
 ---
 
