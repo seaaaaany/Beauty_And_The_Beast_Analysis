@@ -13,7 +13,8 @@ How the New 'Beauty and the Beast' Compares to the Animated Classic
   <a href="#movie-data">Movie Data</a> •
   <a href="#analysis">Analysis</a> •
   <a href="#technology-stack-used">Technology Stack Used</a> •
-  <a href="#can-we-go-further">Can We Go Further</a>
+  <a href="#can-we-go-further">Can We Go Further</a> •
+  <a href="#reference">Reference</a>
 </p>
 
 ![2017](readme_images/beauty-beast.jpg)
