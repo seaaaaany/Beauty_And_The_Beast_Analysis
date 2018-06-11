@@ -47,10 +47,10 @@ all_year = pd.concat(all_years)
 
 ---
 
-
 ## Analysis
 Let's start with total gross and opening.
-[![Total_Gross_vs_Opening](result_img/Total_Gross_vs_Opening_1991.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Total_Gross_vs_Opening.png)
+[![Total_Gross_vs_Opening](result_img/Total_Gross_vs_Opening_1991.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Total_Gross_vs_Opening_1991.png)
+[![Total_Gross_vs_Opening](result_img/Total_Gross_vs_Opening_2017.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Total_Gross_vs_Opening_2017.png)
 [![Weekend Gross_1991](result_img/Weekend_Gross_1991.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Weekend_Gross_1991.png)
 [![Weekend Gross_2017](result_img/Weekend_Gross_2017.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Weekend_Gross_2017.png)
 
