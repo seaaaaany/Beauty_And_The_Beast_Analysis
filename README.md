@@ -24,24 +24,32 @@ Once Walt Disney Pictures began adapting its animated classics for live-action, 
 
 ## Requirement
 > You may need Plotly, BeautifulSoup installed.
-```bash
+```python
 # Plotly
 pip install plotly
 # BeautifulSoup
 pip install bs4
 ```
+---
+
 
 
 ## Movie Data
 The movie data for both movies are scrapped from [boxofficemojo](http://www.boxofficemojo.com/).
 The years we selected are from 1980 to 2018.
 
-```bash
+**Python Scrape Code Preview**
+```python
 all_years = []
 for x in range(1980,2018):
     all_years.append(box_office_mojo_compile(x))
 all_year = pd.concat(all_years)
 ```
+
+**Data Preview**
+
+![data_preview](readme_images/data_preview.png)
+
 
 >You can find all cleaned data at [here](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/tree/master/dataset).
 
@@ -50,15 +58,42 @@ all_year = pd.concat(all_years)
 ## Analysis
 Let's start with total gross and opening.
 [![Total_Gross_vs_Opening](result_img/Total_Gross_vs_Opening_1991.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Total_Gross_vs_Opening_1991.png)
+<br>
+</br>
 [![Total_Gross_vs_Opening](result_img/Total_Gross_vs_Opening_2017.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Total_Gross_vs_Opening_2017.png)
+<br>
+</br>
+Those two plots show the top five movies in year 1991 and year 2017. It is interesting to see the Beauty 1991 almost had $0 at opening. The reason I found for that is because only two theaters open at the first week.
+
+Also, it's easy to see the rank of top movies is based on the total gross. 
+
+
 [![Weekend Gross_1991](result_img/Weekend_Gross_1991.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Weekend_Gross_1991.png)
+<br>
+</br>
+It only had two theaters open at the first week, I decide to remove week one data because it was not comparable.
+
+Compared with year 1991 (see the chart below), according to Box Office: 'Beauty and the Beast' smashed records with towering $175 Million debut. 
+>This is what makes Disney such a powerhouse.
+
+What we could find is both movies were very hot at the first few weeks. 2017 vision kept going down heavyly, after three months, the data was even too small to see one the chart. However, Beauty 1991 hit the highest weekend gross at the week two, and the topic was still very hot until week ten. After that, the point remained around $1,900,000 until the end of the period.
+
 [![Weekend Gross_2017](result_img/Weekend_Gross_2017.png)](https://github.com/yycyjqc/Beauty_And_The_Beast_Analysis/blob/master/result_img/Weekend_Gross_2017.png)
+<br>
+</br>
+
+
+---
+
 
 ## Technology Stack Used
 + Python
 + Plotly (Visualization)
 + BeautifulSoup (Web Scraping)
 + Seaborn/Matplotlib (Visualization)
+
+---
+
 
 ## Reference
 Josh Spiegel, (March 20th, 2017). *[How the New ‘Beauty and the Beast’ Compares to the Animated Classic](http://www.slashfilm.com/beauty-and-the-beast-compared-to-the-original/)*
